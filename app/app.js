@@ -33,23 +33,8 @@ console.log("in app!");
   }
 
 
-function lineLength() {
- let line = document.getComputedStyle("hr-width");
-
-
- if (minutes === 60) {
-   return lineLength() === 100%;
- }
-
-
-
-}
-
-
-
-
-
-
-
-
 setInterval(displayTime, 1000);
+
+document.querySelector("#line"); {
+ let line = style.width + currentTime() / 60 * 100;/
+}
