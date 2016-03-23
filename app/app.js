@@ -54,7 +54,7 @@ setInterval(() => {
 
   console.log(percentMinute);
 
-  document.querySelector("#timerBar").style.width = ""
+  document.querySelector("#timerBar").style.width = (percentMinute * totalWidth) + "px";
 
   document.querySelector("#clock").innerHTML = `${hours} : ${minutes} : ${seconds}`;
 
@@ -62,7 +62,7 @@ setInterval(() => {
 
 function padNumber(num) {
   if (num < 10) {
-    return "0" + string(num);
+    return "0" + String(num);
   }
   else {
     return String(num);
