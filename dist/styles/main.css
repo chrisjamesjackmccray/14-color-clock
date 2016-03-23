@@ -1,6 +1,6 @@
 #clock {
   width: 400px;
-  height: 400px;
+  height: 100px;
   margin: 0 auto;
   padding: 10px;
   font-size: 5rem;
@@ -9,9 +9,12 @@
   background-color: lightgrey;
   color: black; }
 
+hr {
+  width: 40%; }
+
 #clock {
   width: 400px;
-  height: 400px;
+  height: 100px;
   margin: 0 auto;
   padding: 10px;
   font-size: 5rem;
@@ -19,3 +22,6 @@
   text-align: center;
   background-color: lightgrey;
   color: black; }
+
+hr {
+  width: 40%; }
