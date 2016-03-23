@@ -9,17 +9,18 @@ body {
   font-size: 5rem;
   font-weight: bold;
   text-align: center;
-  background-color: lightgrey;
+  background-color: none;
   color: black; }
 
 hr {
   width: 40%; }
 
 #timerBar {
+  margin: 40px 0 0 0;
   width: 420px;
   height: 2px;
   margin: 0 auto;
-  background-color: red; }
+  background-color: black; }
 
 body {
   background-color: none; }
@@ -32,14 +33,15 @@ body {
   font-size: 5rem;
   font-weight: bold;
   text-align: center;
-  background-color: lightgrey;
+  background-color: none;
   color: black; }
 
 hr {
   width: 40%; }
 
 #timerBar {
+  margin: 40px 0 0 0;
   width: 420px;
   height: 2px;
   margin: 0 auto;
-  background-color: red; }
+  background-color: black; }
