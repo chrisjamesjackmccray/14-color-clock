@@ -36,5 +36,40 @@ console.log("in app!");
 
 setInterval(displayTime, 1000);
 
+
+
+
+setInterval(() => {
+  let time = new Date();
+  console.log(time);
+
+  let hours = padNumber(time.getHours());
+  let minutes = padNumber(time.getMinutes());
+  let seconds = padNumber(time.getSeconds());
+
+
+
+  let percentMinute = time.getSeconds() / 60;
+  let totalWidth = 420;
+
+  console.log(percentMinute);
+
+  document.querySelector("#timerBar").style.width = ""
+
+  document.querySelector("#clock").innerHTML = `${hours} : ${minutes} : ${seconds}`;
+
+}, 1000);
+
+function padNumber(num) {
+  if (num < 10) {
+    return "0" + string(num);
+  }
+  else {
+    return String(num);
+  }
+}
+
+
+
 // document.querySelector("#line");
 // let line = style.width + currentTime() / 60 * 100;

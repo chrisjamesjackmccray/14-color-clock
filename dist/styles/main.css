@@ -1,16 +1,5 @@
-#clock {
-  width: 400px;
-  height: 100px;
-  margin: 0 auto;
-  padding: 10px;
-  font-size: 5rem;
-  font-weight: bold;
-  text-align: center;
-  background-color: lightgrey;
-  color: black; }
-
-hr {
-  width: 40%; }
+body {
+  background-color: blue; }
 
 #clock {
   width: 400px;
@@ -25,3 +14,32 @@ hr {
 
 hr {
   width: 40%; }
+
+#timerBar {
+  width: 420px;
+  height: 2px;
+  margin: 0 auto;
+  background-color: white; }
+
+body {
+  background-color: blue; }
+
+#clock {
+  width: 400px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+  background-color: lightgrey;
+  color: black; }
+
+hr {
+  width: 40%; }
+
+#timerBar {
+  width: 420px;
+  height: 2px;
+  margin: 0 auto;
+  background-color: white; }
